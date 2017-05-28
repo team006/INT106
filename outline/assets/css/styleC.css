@@ -1,0 +1,17 @@
+p{
+  text-align: center;
+  margin-top : 10px;
+}
+#header{
+  margin-top: 125px;
+}
+.imgtransparent
+{
+opacity:10.0; /* ค่าความจาง */
+filter:alpha(opacity=100); /* สำหรับ IE8 ขึ้นไป */
+}
+.imgtransparent:hover
+{
+opacity:0.4; /* ค่าความจาง */
+filter:alpha(opacity=40); /* สำหรับ IE8 ขึ้นไป */
+}
